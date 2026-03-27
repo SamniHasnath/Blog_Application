@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📝 My Blog</h1>
+
+    <!-- CREATE POST -->
+    <form action="/create" method="POST">
+        <input type="text" name="title" placeholder="Enter title" required>
+        <textarea name="content" placeholder="Write your post..." required></textarea>
+        <button type="submit">Add Post</button>
+    </form>
+
+    <h2>All Posts</h2>
+
+    <% if (posts.length === 0) { %>
+        <p>No posts yet 😢</p>
+    <% } %>
+
+    <!-- POSTS -->
+    <% posts.forEach(post => { %>
+        <div class="post-card">
+            <h3><%= post.title %></h3>
+
+            <p class="date">📅 <%= post.date %></p>
+
+            <p><%= post.content %></p>
+
+            <div class="actions">
+                <a href="/edit/<%= post.id %>">✏ Edit</a>
+                <a href="/delete/<%= post.id %>">🗑 Delete</a>
+            </div>
+        </div>
+    <% }); %>
+
+</div>
+
+</body>
+</html>
