@@ -1,8 +1,5 @@
 # 📝 My Blog App (Node.js + Express)
 
-A simple full-stack blog application built using **Node.js, Express, and EJS**.  
-This project allows users to create, edit, and delete blog posts with a clean responsive UI.
-
 ## 📌 Features
 
 - ✅ Create blog posts
@@ -44,15 +41,8 @@ blog-app/
 
 ---
 
-## ⚙️ Installation & Setup
-
-
-
-
-
 ## 📸 Screenshots (Optional)
 
-*(Add screenshots here if you want to impress lecturer 😎)*
 <img width="934" height="520" alt="image" src="https://github.com/user-attachments/assets/d85ca30e-c753-4edf-87f1-576ad6b132ba" />
 
 ---
@@ -72,7 +62,6 @@ This project demonstrates:
 ## 👨‍💻 Author
 
 * Name: Samni Hasnath
-* Project: Web Development Practice
 
 ---
 
@@ -84,10 +73,6 @@ This project demonstrates:
 * Likes & comments system
 
 ---
-
-## 📜 License
-
-This project is for educational purposes.
 
 
 
