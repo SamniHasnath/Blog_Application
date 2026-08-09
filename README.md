@@ -43,7 +43,7 @@ blog-app/
 
 ## 📸 Screenshots (Optional)
 
-<img width="934" height="520" alt="image" src="https://github.com/user-attachments/assets/d85ca30e-c753-4edf-87f1-576ad6b132ba" />
+<img width="804" height="520" alt="image" src="https://github.com/user-attachments/assets/d85ca30e-c753-4edf-87f1-576ad6b132ba" />
 
 ---
 
